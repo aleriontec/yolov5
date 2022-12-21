@@ -11,6 +11,8 @@ Usage:
 """
 
 import torch
+import sys
+sys.path.insert(0, '/home/alerion/thirdparties/yolov5')
 
 
 def _create(name, pretrained=True, channels=3, classes=80, autoshape=True, verbose=True, device=None):
